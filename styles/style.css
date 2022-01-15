@@ -157,20 +157,55 @@ footer .icons .social-icon{
     margin-right: 5px;
 }
 
+@media screen and (max-width:668px) {
+   
+    .first-heading{
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .all-content{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-left{
+        width: fit-content;
+        margin-top: 50px;
+    }
+    .header-left .link-button{
+        margin: 0 auto;
+    }
+    .header-right img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .collection-section .products{
+        grid-template-columns: 1fr;
+    }
+    .collection-section .product{
+        margin: 0 auto;
+    }
+    .collection-section .see-more-button{
+        margin-right: 20px;
+    }
 
+}
 /* Media Queries */
 
 /*------------------
  Mobile Devices 
  ------------------*/
- @media only screen and (max-width:688px) {
+ /* @media only screen and (max-width:688px) {
     .container{
         background-color: purple;
         display: grid;
-    grid-template-columns: repeat(1,1fr)
+    grid-template-columns: repeat(1,1fr) */
     
-}
- }
+
+ 
 /* tablet devices *
 @media only screen and (min-width: 688px) and (max-width:992px){
    .container{
