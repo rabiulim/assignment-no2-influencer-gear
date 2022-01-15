@@ -157,7 +157,11 @@ footer .icons .social-icon{
     margin-right: 5px;
 }
 
-@media screen and (max-width:668px) {
+  /* Media Queries start  */
+
+ /* mobile divice responsive start */
+
+@media only screen and (max-width:668px) {
    
     .first-heading{
         text-align: center;
@@ -193,26 +197,43 @@ footer .icons .social-icon{
     }
 
 }
-/* Media Queries */
+/* mobile device responsive ended */
 
-/*------------------
- Mobile Devices 
- ------------------*/
- /* @media only screen and (max-width:688px) {
-    .container{
-        background-color: purple;
-        display: grid;
-    grid-template-columns: repeat(1,1fr) */
+/* Tablet Devices resstartponsive  */
+
+
+@media only screen and (min-width:669px) and (max-width:992px) {
     
-
- 
-/* tablet devices *
-@media only screen and (min-width: 688px) and (max-width:992px){
-   .container{
-       width: 100%;
-   }
-   .players, .courses{
-       grid-template-columns: repeat(2, 1fr); 
-   }
-   
+    .header-left h1{
+        margin: 20px auto;
+    }
+    .container{
+        width: 100%;
+    }
+    .all-content{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-left{
+        width: fit-content;
+        margin-top: 50px;
+    }
+    .header-left .link-button{
+        margin: 0 auto;
+    }
+    .header-right img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .collection-section .products{
+        grid-template-columns: 1fr 1fr;
+    }
+    .collection-section .product{
+        margin: 0 auto;
+    }
+    .collection-section .see-more-button{
+        text-align: center;
+    }
 }
